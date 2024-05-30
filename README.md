@@ -1,13 +1,49 @@
-# API-ASP.NET-BRASILAPI
 
-Este projeto é um exemplo de como consumir a API do Brasil utilizando ASP.NET 8.0.
-Posteriormente, novas aplicações serão criadas baseadas nessa forma de consumir a API do Brasil. 
+# Título do Projeto
 
-## Dependências necessárias
+Uma api que consome o servico do Brasil api, para retornar bancos e endereços.
+ 
 
-Para executar este projeto, as seguintes dependências são necessárias:
+## Documentação da API
 
-- **AutoMapper**: Utilizado para mapear objetos entre diferentes classes.
-- **Swagger**: Ferramenta de documentação para APIs RESTful.
+#### Retorna todos os bancos
 
-Certifique-se de instalar essas dependências antes de executar o projeto.
+```http
+  GET /api/v1/Banco/busca/todos
+```
+
+#### Retorna um banco
+```http
+  GET /api/v1/Banco/busca/{codigoBanco}
+```
+
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `codigoBanco`      | `string` | **Obrigatório**. O codigo do banco que você quer |
+
+
+#### Retorna um cep
+
+```http
+  GET api/v1/Endereco/busca/{cep}
+```
+
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `cep`      | `string` | **Obrigatório**. O cep do item que você quer |
+
+
+## Apêndice
+
+Projeto baseado na referência. 
+
+
+## Referência
+
+ - [artigotech-integra-brasilapi](https://github.com/ivisconfessor/artigotech-integra-brasilapi)
+ - [Brasil-API](https://brasilapi.com.br/)
+
+## Autores
+
+- [@PedroVMB]([https://www.github.com/octokatherine](https://github.com/PedroVMB))
+
