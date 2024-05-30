@@ -1,6 +1,7 @@
 # API-ASP.NET-BRASILAPI
 
 Este projeto é um exemplo de como consumir a API do Brasil utilizando ASP.NET 8.0.
+Posteriormente, novas aplicações serão criadas baseadas nessa forma de consumir a API do Brasil. 
 
 ## Dependências necessárias
 
