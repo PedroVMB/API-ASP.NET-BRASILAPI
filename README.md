@@ -1,2 +1,12 @@
 # API-ASP.NET-BRASILAPI
-Consumo da API do Brasil utilizando ASP.NET 8.0
+
+Este projeto é um exemplo de como consumir a API do Brasil utilizando ASP.NET 8.0.
+
+## Dependências necessárias
+
+Para executar este projeto, as seguintes dependências são necessárias:
+
+- **AutoMapper**: Utilizado para mapear objetos entre diferentes classes.
+- **Swagger**: Ferramenta de documentação para APIs RESTful.
+
+Certifique-se de instalar essas dependências antes de executar o projeto.
